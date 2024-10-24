@@ -58,18 +58,23 @@
         }
     }
 
-    @media (min-width: 600px) {
+    @media (max-width: 600px) {
         .container1{
-            display: block;
+            display: flex;
+            padding-top: 25rem;
             align-items: center;
             justify-items: center;
             position: relative;
+            width:90vw;
+            height: 20rem;
+            padding: 1rem;
+            margin: 10rem;;
             
         }
         .pic-container{
         
             position:absolute;
-            top:-5rem;
+            top:-8rem;
             left:20%;
         }
     }

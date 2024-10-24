@@ -30,8 +30,9 @@
 
 .container2{
     padding: 2rem;
-    height: fit-content;
+    height: auto;
     border: 0.2rem;
+    width: auto;
     border-style: solid;
     border-radius: 1rem;
     border-color: goldenrod;
@@ -46,6 +47,7 @@
 }
 .para{
     font-size: 1.5rem;
+    width: auto;
 }
 .emphasize{
     font-weight: bold;
@@ -91,19 +93,33 @@
 
 @media (max-width: 768px) {
     .full-height{
-        display: block;
+       
+        display:block;
         align-items: center;
-        justify-content: center;
+        justify-content:  center;
     }
+
 
     .sub-container2{
         border-radius: 1rem;
-        width: auto;
+        width: 100%;
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        gap: 1rem;
-        grid-template-rows: auto;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+    grid-template-rows: repeat(1,1fr);
+       
+    
         
+    }
+    .sub-container2-1 .sub-container2-2{
+        width: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .para{
+        width: 100%;
+        padding: 1rem;
     }
 
    
