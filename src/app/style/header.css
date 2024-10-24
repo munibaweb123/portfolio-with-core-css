@@ -1,0 +1,15 @@
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+}
+
+.heading1{
+    font-weight: bolder;
+    font-size: 2rem;
+    color: gold;
+    
+
+}
+

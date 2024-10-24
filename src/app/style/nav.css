@@ -1,0 +1,35 @@
+.nav-list {
+    display: grid;
+    grid-template-rows: repeat(4, 1fr); /* Correcting the syntax */
+    grid-template-columns: 1fr; /* Ensure it's a single column */
+    gap: 1rem;
+    justify-items: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+}
+
+.navbar {
+    border: 0.2rem solid goldenrod;
+    border-radius: 1rem;
+    margin: 2rem;
+    padding: 1rem; /* Optional: add padding to navbar */
+}
+
+.page-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Change to justify-content for proper centering */
+}
+
+.nav-list li {
+    list-style-type: none;
+    padding: 1rem;
+    text-align: center; /* Center the text inside each list item */
+}
+
+.link {
+    text-decoration: none;
+}
+
+.link:hover {
+    color: gold;
+}
