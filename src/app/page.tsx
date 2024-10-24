@@ -1,17 +1,12 @@
 
 import "../app/style/home.css"
+import Hero from "./components/hero"
 import Navbar from "./components/nav"
 export default function Home(){
   return(
     <main className="full-height">
-     <div className="container1">
-     <div className="pic-container"><img className="profile-pic" src="/images/profile.jpg" alt="profile pic" height={500} width={500}/></div>
-      <div >
-      <h1 className="heading1">Muniba Ahmed</h1>
-      <h2 className="heading2">Graphic Designer + Web Developer</h2>
-
-      </div>
-     </div>
+      <Hero/>
+    
      <div className="container2">
      <h3 className="heading3">About</h3>
       <p className="para">I am a <span className="emphasize">passionate tech enthusiast</span> with a deep interest in <span className="emphasize">Web-Development and graphic designing. </span>

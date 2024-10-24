@@ -1,0 +1,17 @@
+.project{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.heading{
+    text-align: center;
+    font-size: 2rem;
+}
+
+@media (max-width: 768px) {
+    .project{
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+}

@@ -1,7 +1,16 @@
-export default function About(){
+import Hero from "../components/hero";
+import Navbar from "../components/nav";
+import "../style/education.css"
+
+export default function Education(){
     return(
-        <div className="min-h-screen">
-            <h2 className="text-center text-4xl font-bold">About Me</h2>
+        <div >
+            <h2 className="heading">Education</h2>
+            <div className="education">
+            <Hero/>
+            <Navbar/>
+            </div>
+           
         </div>
     )
 }
