@@ -60,15 +60,16 @@
 
     @media (max-width: 600px) {
         .container1{
+            box-sizing: border-box;
             display: flex;
             padding-top: 25rem;
             align-items: center;
             justify-items: center;
             position: relative;
-            width:90vw;
+            width:100vw;
             height: 20rem;
-            padding: 1rem;
-            margin: 10rem;;
+            padding: 0.5rem;
+            margin-top: 5rem;
             
         }
         .pic-container{
@@ -76,6 +77,9 @@
             position:absolute;
             top:-8rem;
             left:20%;
+        }
+        .heading2{
+            font-size: 1.5rem;
         }
     }
 
