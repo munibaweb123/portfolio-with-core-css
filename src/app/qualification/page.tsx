@@ -5,9 +5,10 @@ import "../style/education.css"
 export default function Education(){
     return(
         <div>
-            <h2 className="heading">Education</h2>
+            
             <div className="education">
             <Hero/>
+            <div className="container2"><h2 className="heading">Education</h2></div>
             <Navbar/>
             </div>
         </div>

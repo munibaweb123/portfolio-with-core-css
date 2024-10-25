@@ -7,6 +7,17 @@
     text-align: center;
     font-size: 2rem;
 }
+.container2{
+    padding: 2rem;
+    height: auto;
+    border: 0.2rem;
+    width: auto;
+    border-style: solid;
+    border-radius: 1rem;
+    border-color: goldenrod;
+    margin:2rem;
+    /* background-color: white; */
+}
 
 @media (max-width: 768px) {
     .project{

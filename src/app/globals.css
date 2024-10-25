@@ -45,6 +45,10 @@ body {
     background-color: var(--sub-container);
     color: var(--text-color);
 }
+.container1-1{
+    background-color: var(--sub-container);
+    color:var(--text-color)
+}
 .navbar{
     background-color: var(--nav-bar);
     color: var(--text-color);

@@ -5,9 +5,10 @@ import "../style/project.css"
 export default function Project(){
     return(
         <div>
-            <h2 className="heading">My Projects</h2>
+            
             <div className="project">
             <Hero/>
+            <div className="container2"><h2 className="heading">My Projects</h2></div>
             <Navbar/>
             </div>
         </div>
