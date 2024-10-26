@@ -97,7 +97,7 @@
         grid-template-columns: (1,1fr);
         align-items: center;
         height: 100%; /* Ensures full height on mobile */
-        width: 100vw;
+        width: 90vw;
     }
 
     .sub-container2 {

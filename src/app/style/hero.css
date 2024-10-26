@@ -47,7 +47,8 @@ padding: 0.5rem;
     border-color: goldenrod;
     /* background-color: white; */
     height: 35rem;
-    width:50rem;
+    width:fit-content;
+    max-width: 90%; /* Added */
 }
 .container1-1{
     border-radius: 0.5rem;
@@ -57,7 +58,7 @@ padding: 0.5rem;
     border-radius: 1rem;
     background-color: goldenrod;
     margin: 1.75rem;
-    font-size: 1rem;
+    font-size: 2rem;
     
     
 }
@@ -85,16 +86,18 @@ padding: 0.5rem;
 
     @media (max-width: 600px) {
         .container1{
-            box-sizing: border-box;
+            
             display: flex;
             padding-top: 25rem;
             align-items: center;
             justify-items: center;
-            position: relative;
-            width:100vw;
-            height: 40rem;
+            
+    
+            max-width:80%;
+            height: 45rem;
             padding: 0.5rem;
             margin-top: 5rem;
+            margin-right: 0.5rem;
             
         }
         .pic-container{

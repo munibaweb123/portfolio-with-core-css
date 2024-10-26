@@ -9,20 +9,68 @@
 }
 .container2{
     padding: 2rem;
-    height: auto;
+    height: 100%;
     border: 0.2rem;
-    width: auto;
+    width: 70%;
     border-style: solid;
     border-radius: 1rem;
     border-color: goldenrod;
     margin:2rem;
     /* background-color: white; */
 }
+.form{
+    width:100vh;
+    
+    display: block;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.input{
+    border:solid 0.1rem goldenrod;
+    border-radius: 0.2rem;
+    padding: 1rem;
+    width: 100%;
+    font-size: 1rem;
+    
+}
+.label{
+    font-size: 2rem;
+}
+
 
 @media (max-width: 768px) {
     .contact{
         display: block;
         align-items: center;
         justify-content: center;
+    }
+    .input{
+        width: auto;
+    }
+}
+@media (max-width: 1500px) {
+    .contact{
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+    .form{
+        width:90%;
+        
+        display: block;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    
+    .input{
+        border:solid 0.1rem goldenrod;
+        border-radius: 0.2rem;
+        padding: 1rem;
+        width: 100%;
+        font-size: 1rem;
+        
     }
 }
