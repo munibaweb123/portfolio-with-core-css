@@ -41,7 +41,7 @@ body {
     background-color: var(--container-color);
     color: var(--text-color);
 }
-.sub-container2-1, .sub-container2-2{
+.sub-container2-1, .sub-container2-2, .skills-pic{
     background-color: var(--sub-container);
     color: var(--text-color);
 }
