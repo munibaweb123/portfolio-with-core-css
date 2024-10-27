@@ -15,23 +15,28 @@
     border-style: solid;
     border-radius: 1rem;
     border-color: goldenrod;
-    margin:2rem;
+    
     /* background-color: white; */
 }
 .form{
-    width:100vh;
+    width:100%;
     
     display: block;
     align-items: center;
     justify-content: center;
     
 }
+.in-form{
+    width: 100%;
+}
 
 .input{
-    border:solid 0.1rem goldenrod;
+    border:solid 0.2rem goldenrod;
     border-radius: 0.2rem;
     padding: 1rem;
+    
     width: 100%;
+    box-sizing: border-box;
     font-size: 1rem;
     
 }
@@ -47,7 +52,7 @@
         justify-content: center;
     }
     .input{
-        width: auto;
+        width: 100%;
     }
 }
 @media (max-width: 1500px) {
@@ -57,7 +62,7 @@
         justify-content: center;
     }
     .form{
-        width:90%;
+        width:100%;
         
         display: block;
         align-items: center;

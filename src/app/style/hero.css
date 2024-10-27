@@ -58,9 +58,13 @@ padding: 0.5rem;
     border-radius: 1rem;
     background-color: goldenrod;
     margin: 1.75rem;
-    font-size: 2rem;
+    font-size: 1rem;
+    font-weight: bold;
     
     
+}
+.btn:hover{
+    background-color:gold;
 }
 
 .heading2{

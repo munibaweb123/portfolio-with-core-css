@@ -22,7 +22,7 @@ const ThemeToggle = () => {
     };
 
     return (
-        <button onClick={toggleTheme} style={{ display: 'flex', alignItems: 'center', background:'gold', border:'100px' }}>
+        <button className='btn' onClick={toggleTheme} style={{ display: 'flex', alignItems: 'center', border:'100px' }}>
             {theme === 'light' ? <BsMoonFill size={40} color='black'/> : <BsFillLightbulbFill size={40} color='white' />} {/* Show moon icon for light, sun for dark */}
             <span style={{ marginLeft: '8px' }}>
                 {theme === 'light' ? 'Dark' : 'Light'} 
