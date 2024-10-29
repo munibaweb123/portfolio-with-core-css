@@ -1,6 +1,9 @@
+"use client"
 import Image from "next/image"
 import "../style/hero.css"
 import { FaMobileAlt,FaMapMarkerAlt,FaEnvelope,FaCalendar, FaGithub } from 'react-icons/fa';
+
+import { IoMdDownload } from "react-icons/io";
 export default function Hero(){
     return(
         <div className="container1">
@@ -22,9 +25,16 @@ export default function Hero(){
             <div className="contact-container"><FaMapMarkerAlt size={20}/> Karachi Pakistan</div>
             <div className="contact-container"><FaCalendar size={20}/> 25-10-2024</div>
         </div>
-        <button className="btn">View Resume</button>
-   
-         </div>
+       <button className="btn">
+       <a
+            href="/Resume/muniba.pdf"
+            download
+            
+          >
+            Download CV <IoMdDownload className="text-lg ml-2" />
+          </a> 
+        </button>        
+          </div>
         </div>
     )
 }
