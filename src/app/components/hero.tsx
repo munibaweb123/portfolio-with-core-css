@@ -26,7 +26,7 @@ export default function Hero(){
             <div className="contact-container"><FaCalendar size={20}/> 25-10-2024</div>
         </div>
        <button className="btn">
-       <a
+       <a className="link"
             href="/Resume/muniba.pdf"
             download
             
